@@ -1,0 +1,50 @@
+body {
+    font-family: utura-pt,Avenir,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 30%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    flex: auto;
+    align-items: center;
+}
+
+.logo {
+    width: 5%;
+    margin: 10px;
+}
+
+li {
+    list-style: none;
+    margin-left: 1em; 
+}
+
+header nav{
+    display: flex;
+    flex: auto;
+    justify-content: space-between;
+}
+
+header ul {
+    display: flex;
+}
+
+header .left-links {
+    display: flex;
+}
+
+.nav-bar {
+    display: flex;
+}
+
+
