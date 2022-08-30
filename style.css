@@ -100,3 +100,27 @@ section {
     font-size: 10px;
 }
 
+.section-four {
+    display: flex;
+}
+
+.section-four img{
+    width: 70%;
+}
+
+.section-four .img-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 150px;
+}
+
+.section-five {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-five img {
+    width: 85%;
+}
