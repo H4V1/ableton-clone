@@ -61,8 +61,6 @@ header .left-links {
 }
 
 .hero {
-    display: flex;
-    justify-content: center;
     background-image: url(https://ableton-production.imgix.net/about/header.jpg?auto=format&fit=crop&fm=jpg&h=281&ixjsv=1.1.3&w=1138);
     background-repeat: no-repeat;
     background-size: cover;
@@ -91,6 +89,14 @@ section {
 .section-two img{
     width: 40%;
 }
- iframe {
-    
- }
+
+.section-three {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-three .video-src {
+    font-size: 10px;
+}
+
