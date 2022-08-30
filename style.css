@@ -9,7 +9,7 @@ body {
 img {
     width: 30%;
     height: auto;
-}
+} 
 
 a {
     text-decoration: none;
@@ -80,5 +80,17 @@ section {
     flex-wrap: wrap;
 }
 
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    z-index: 100;
+}
 
-
+.section-two img{
+    width: 40%;
+}
+ iframe {
+    
+ }
