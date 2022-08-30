@@ -82,8 +82,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2em;
-    z-index: 100;
+    gap: 2em;    
 }
 
 .section-two img{
@@ -124,3 +123,49 @@ section {
 .section-five img {
     width: 85%;
 }
+
+.section-six {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.section-six .img-left {
+    width: 500px;
+    height: 300px;
+    object-fit: fill;
+}
+
+.section-six .img-right {
+    width: 600px;
+    height: 650px;
+    object-fit: fill;
+}
+
+.section-seven {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 20px;
+    background-color: #b1c5ff;
+    margin: 0 15% 0 15% ;
+}
+
+.section-seven .left {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+.section-seven .left img {
+    width: 100%;
+    height: auto;
+}
+.section-seven .right {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
