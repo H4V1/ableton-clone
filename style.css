@@ -43,22 +43,48 @@ li {
     margin-left: 1em; 
 }
 
+header {
+    margin: 0;
+    padding: 0 10px;
+    border-bottom: rgb(185, 185, 185) solid 1px;
+}
+
+header .logo {
+    margin: 0;
+}
+
 header nav{
     display: flex;
     flex: auto;
     justify-content: space-between;
 }
 
+
 header ul {
     display: flex;
+    font-weight: 500;
+}
+
+header .more-btn {
+    color: #ff764d;
 }
 
 header .left-links {
     display: flex;
 }
 
+.left-links .blue-btn {
+    color: #0000ff;
+}
+
 .nav-bar {
     display: flex;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.nav-bar .about-btn {
+    color: #ff764d;
 }
 
 .hero {
@@ -165,18 +191,27 @@ section {
 .section-seven .right {
     display: flex;
     flex-direction: column;
-    width: 50%;
-    align-items: center;
+    width: 100%;
+    padding-left: 50px;
+    align-items: flex-start;
     justify-content: center;
+}
+
+.section-seven .jobs-link {
+    color: #0000ff;
+    font-weight: bold;
+    font-size: 25px;
 }
 
 footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 7%;
+    padding: 0 7%;
+    margin-top: 100px;
     gap: 50px;
     font-size: 20px;
     color: black;
+    border-top: rgb(175, 175, 175) solid 1px;
     
 }
 
