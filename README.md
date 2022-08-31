@@ -1,1 +1,3 @@
 # ableton-clone
+
+This is mainly to practice HTML and CSS, i have finished the overall page, but still need to make it properly responsive. This was a good practice, now i have a better understanding on how CSS and HTML works. Still need to figure it out how somethings work with flexbox, and specially how position works, had a really difficult time positioning the images. Also i could not achieve the background behind the images i might come back and try it another day.
