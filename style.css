@@ -169,3 +169,21 @@ section {
     justify-content: center;
 }
 
+footer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    max-height: 200px;
+}
+
+footer h2 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    margin-left: 2em;
+}
+
+.newsletter p{
+    font-weight: 100;
+    font-size: 16px;
+}
